@@ -1,9 +1,3 @@
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merienda:wght@300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-div {
-    font-family: "Merienda", cursive;
-}
-</style>
 <div>
 
 ## Anime.Net Curioso! 2024
@@ -26,9 +20,6 @@ Todo o código construído neste projeto é de uso público, caso queira uma có
 
 Faça de suas letras e sua criatividade sua própria inspiração, dias ruins virão, mas lhe ensinarão a ser forte e persistente, então coloque o primeiro passo e diga: <em>Venha que hoje estou preparado para o futuro…</em>
 
-
-
-Bem-vindo(a) ao repositório do Quiz de Mitologia Grega, um projeto interativo desenvolvido pela Squad #01, como parte do Módulo 1. Este quiz é uma maneira divertida e educativa de testar seus conhecimentos sobre mitologia grega, e foi criado utilizando tecnologias web como HTML, CSS e JavaScript.
 
 ### Conheça minhas redes sociais:
 <a href="https://www.linkedin.com/in/sergio-santos-1a7659222/">LinkedIn</a> 

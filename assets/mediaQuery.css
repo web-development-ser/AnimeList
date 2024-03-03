@@ -1,0 +1,36 @@
+@media screen and (max-width: 480px) {
+    .container_info {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        justify-content: center;
+        flex: 1;
+    }
+    .card li {
+        flex: 1;
+    }
+    .card li div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .qtsEps {
+        width: 100%;
+    }
+    .container_header {
+        flex-direction: column;
+    }
+    #container_footer_iframe {
+        height: 120vh;
+    }
+}
+@media screen and (max-width: 780px) {
+    .container_info {
+        flex-direction: column;
+        align-items: center;
+    }
+    #container_footer_iframe {
+        height: 180vh;
+    }
+}

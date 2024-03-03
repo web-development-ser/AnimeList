@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merienda:wght@300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: silver;
+}
+/* ------------------------------------------- */
+.container_header {
+    border: solid 3px rgb(188, 112, 236);
+    border-radius: 14px;
+    margin: 1.2rem;
+    padding: 0.9rem;
+}
+.container_header div {
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+.container_header div:last-child {
+    border-bottom: rgb(188, 112, 236) 3px solid;
+    border-radius: 5px;
+    padding: 0.7rem;
+}
+.container_header div:last-child a {
+    text-decoration: none;
+    padding: 0 0.3rem 0.1rem;
+}
+.container_header div:last-child a:hover::after {
+    content: " <;";
+    /* border-bottom: rgb(245, 223, 94) 3px solid; */
+    transition: all 0.7s ease-in-out;
+}
+.container_header, .container_header div:last-child {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+/* ------------------------------------------- */
+.container_busca #name_anime, .container_busca #buscar_anime, .container_busca #amazenar_anime, .buttonDelete {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.1rem;
+    color: rgb(122, 122, 122);
+    background-color: aliceblue;
+    padding: 0.6rem;
+    outline: none;
+    border-color: rgb(188, 112, 236);
+    border-width: 2px;
+    border-bottom-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.container_busca {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container_busca #name_anime:hover, #buscar_anime:hover, .container_busca #amazenar_anime:hover {
+    background-color: rgb(218, 251, 255);
+    border-color: rgb(245, 223, 94);
+    transition: 0.9s;
+}
+.data_dados {
+    border: solid 3px rgb(188, 112, 236);
+    border-radius: 14px;
+    margin: 1.2rem;
+    padding: 0.9rem;
+}
+/* ------------------------------------------- */
+.container_info #img_title img {
+    border: solid 3px rgb(188, 112, 236);
+    border-radius: 12px;
+    box-shadow: 0 6px 17px rgb(188, 112, 236);
+}
+.container_info #img_title img:hover {
+    box-shadow: 0 6px 17px rgb(245, 223, 94);
+}
+
+.container_info {
+    display: flex;
+    align-items: flex-end;
+}
+.container_info div {
+    padding: 1.1rem;
+}
+#container_data {
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: "Fira Sans", sans-serif;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+}
+
+#img_title h2 {
+    border-bottom-color: rgb(188, 112, 236);
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    padding: 0 0 0.3rem;
+    margin: 0 0 0.8rem;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.container_info #container_data {
+    font-size: 1.2rem;
+}
+
+.buttonDelete {
+    margin-top: 0.7rem;
+}
+.buttonDelete:hover {
+    border-bottom-color: rgb(235, 101, 101);
+    color: rgb(235, 101, 101);
+}
+.qtsEps {
+    border: rgb(188, 112, 236) 2px solid;
+    width: 25%;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin-bottom: 0.9rem;
+    padding-bottom: 0.4rem;
+}
+.qtsEps:hover, .container_info #img_title img:hover, #img_title h2:hover {
+    border-color: rgb(245, 223, 94);
+}
+.trueFalse {
+    padding: 0.6rem;
+    border: rgb(188, 112, 236) 2px solid;
+    border-radius: 5px;
+    margin-top: 0.2rem;
+}
+/* ------------------------------------------- */
+.container_card_col_1 {
+    border: solid 3px rgb(188, 112, 236);
+    border-radius: 14px;
+    margin: 1.2rem;
+    padding: 0.9rem;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.card li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    list-style: none;
+
+    width: 200px;
+    border: rgb(188, 112, 236) solid 3px;
+    border-radius: 14px;
+    padding: 1.3rem;
+    margin: 0.9rem 0.5rem;
+}
+.container_card_col_2 .card, #aviso_message {
+    font-family: "Fira Sans", sans-serif;
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+.container_card_col_2 .card img {
+    border: solid 3px rgb(188, 112, 236);
+    border-radius: 12px;
+    box-shadow: 0 6px 17px rgb(188, 112, 236);
+}
+.container_card_col_2 .card img:hover {
+    border-color: rgb(245, 223, 94);
+}
+.container_card_col_2 .card h3 {
+    margin-top: 0.4rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card li img {
+    width: 150px;
+    height: 210px;
+    border: #A020F0 solid 3px;
+    border-radius: 14px;
+}
+
+.aviso {
+    color: rgb(255, 0, 0);
+}
+
+/* ------------------------------------------- */
+footer .container_footer_iframe {
+    text-align: center;
+}
+footer .container_footer_iframe #iframe {
+    left: 1.2%;
+    width: 97%;
+
+    font-size: 1.1rem;
+    color: rgb(122, 122, 122);
+    background-color: aliceblue;
+    padding: 0.6rem;
+    margin-top: 2rem;
+    outline: none;
+    border-color: rgb(188, 112, 236);
+    border-width: 2px;
+    border-bottom-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#container_footer_iframe {
+    height: 100vh;
+}

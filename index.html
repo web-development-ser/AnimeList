@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime.Net Curioso!</title>
+    <!-- Links para CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/mediaQuery.css">
+</head>
+<body>
+
+    <header>
+        <div class="container_header">
+            <div>
+                <h1>Anime.Net Curioso!</h1>
+            </div>
+            <div>
+                <nav>
+                    <a href="https://www.linkedin.com/in/sergio-santos-1a7659222/" target="_blank">LinkedIn</a>
+                    <a href="https://www.instagram.com/his.sergio.his" target="_blank">Instagram</a>
+                    <a href="https://github.com/web-development-ser" target="_blank">Git Hub</a>
+                    <a href="https://web-development-ser.github.io/repository-full-stack/" target="_blank">Bio</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="data_dados">
+            <!-- Corpo Principal -->
+            <div class="container_busca">
+                <div>
+                    <!-- Barra de Busca, e amazenamento obj, array -->
+                    <input type="text" id="name_anime" placeholder="Name Anime...">
+                    <button id="buscar_anime">Buscar</button>
+                    <button id="amazenar_anime">Armazenar Atual?</button>
+                    <!-- tag span "Ùnica" de aviso ao usúsario -->
+                    <p id="aviso_message"></p>
+                </div>
+            </div>
+
+            <div class="container_info">
+                <!-- Rederoza os dados do anime, info -->
+                <div id="img_title">
+                    <!-- Imagem, title anime -->
+                </div>
+                <div id="container_data">
+                    <span>&#10156; Busque um anime, faça sua coleção, tire um print e se divirta-se...</span>
+                    <!-- Descrição do anime -->
+                    <!-- Informações atraves do JS, messagem de erro de busca -->
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container_card_col_1">
+                <h2>Sua coleção de animes:</h2>
+                <div class="container_card_col_2">
+                    <ul class="card" id="card">
+                        
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container_footer_iframe">
+            <button id="iframe">EXIBIR INFORMAÇÕES?</button>
+        </div>
+        <div class="container_iframe">
+            <iframe src="./assets/sobre.html" frameborder="0" style="width: 100%; display: none; margin-bottom: 4rem;" id="container_footer_iframe" scrolling="no"></iframe>
+        </div>
+    </footer>
+    <!-- Arquivo Script.Js -->
+    <script src="script.js"></script>
+</body>
+</html>
